@@ -1,6 +1,4 @@
 #Project Proposal 
-this is test for pull request
-
 
 ##Project :Tigrigna translator 
 Almost all the languages in the world are embedded in Google language translation. Despite  most people in the world can translate their mother-language to different other languages, Eritreans cannot. That’s why  we are really passionate to tackle this problem for Eritreans who need to translate any language to Tigrigna and vice-versa.
