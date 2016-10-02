@@ -2,13 +2,11 @@
 
 body{
 
-	background-color:green;
+	background-color:#FFFDF8;
     margin: 20px 50px;
-    background-image: url("http://4.bp.blogspot.com/_aIrU_NInAww/TS1L1rzuRWI/AAAAAAAAAi8/vz4ZHvpno68/s1600/Paisajesnaturales+%25282%2529.jpeg");
-}
+   }
 div{
-	background-image: url("http://images.forwallpaper.com/files/thumbs/preview/66/661273__wallpaper-nature-landscapes-landscape-images_p.jpg");
-	background-color:white;
+	/*background-color:#62c977;*/
 	margin:20px 40px;
 	padding:10px;
 	font-family: Californian FB;
@@ -20,12 +18,12 @@ p{
 }
 h1{
 	font-size:40px;
-	font-family: Algerian;
+	font-family: 'Anton', sans-serif;
 }
 h2{
-	font-size:30px;
+	font-size:20px;
 	font-family: Algerian;
-	color:red;
+	color:black;
 }
 textarea{
 	size:200px;
