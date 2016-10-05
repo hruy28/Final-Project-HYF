@@ -18,10 +18,11 @@
         <!--link to google fonts-->
         <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400italic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
         <title>A dictionary from Tigrigna to English</title>
 </head>
 <body class="text-center">
-<h1>Tigrigna To Multi-Language Dictionary</h1>
+<h1>Tigrigna Translator</h1>
 <h2>
 <ul class="nav nav-pills">
   <li role="presentation" class="active"><a href="#">Home</a></li>
@@ -33,7 +34,7 @@
 <div>
    
        <!--title of the language selection and list of languages to be translated from and to ,being listed on the combobox-->
-       <p id="pIdTitle">language you need to translate from</p>
+       <p id="pIdTitle">Select the language</p>
        <select id="comboboxId1" onchange="switchTranslation()" width=300px>
           <option>English to Tigrigna</option>
           <option>ካብ ትግርኛ ናብ ኢንግሊዘኛ</option>
@@ -43,7 +44,7 @@
        <br>
        <br>
        <!--user input textbox-->
-     <p id="pIdInput">Type the word below please</p>
+     <p id="pIdInput">Type the word below</p>
      <input type="text" id="txtInputId" list="list1" onfocus="txtOnFocus()" onchange="comboboxSelectChange()"/>
     <!--populated data list from the dictionary -->
      <datalist id="list1">
